@@ -2,7 +2,22 @@ apiVersion: v1
 entries:
   doppler-kubernetes-operator:
   - apiVersion: v2
-    created: "2021-08-23T12:03:32.188158-04:00"
+    created: "2021-08-23T12:04:17.5939-04:00"
+    description: Automatically sync secrets from Doppler to Kubernetes and auto-reload deployments when secrets change.
+    digest: 58c1548616409e91e53d6bcc184fbcadfe4321b822fe6f21efc5e4ad0c71c832
+    home: https://doppler.com
+    icon: https://uploads-ssl.webflow.com/5de9972f49103c5df3964004/60dcc3c839a6c3635b0ab6ad_logo.png
+    keywords:
+    - Doppler
+    - Secrets Manager
+    name: doppler-kubernetes-operator
+    sources:
+    - https://github.com/DopplerHQ/kubernetes-operator
+    urls:
+    - https://helm.doppler.com/doppler-kubernetes-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2021-08-23T12:04:17.593323-04:00"
     description: Automatically sync secrets from Doppler to Kubernetes and auto-reload deployments when secrets change.
     digest: 86fd83bee37b2aa723b67485343dc3f65093e54ffca96ddeb3555f450fceaaff
     home: https://doppler.com
@@ -16,4 +31,4 @@ entries:
     urls:
     - https://helm.doppler.com/doppler-kubernetes-operator-0.1.1.tgz
     version: 0.1.1
-generated: "2021-08-23T12:03:32.187506-04:00"
+generated: "2021-08-23T12:04:17.592529-04:00"
